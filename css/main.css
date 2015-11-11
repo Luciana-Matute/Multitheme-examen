@@ -57,3 +57,9 @@
     z-index: 1;
     padding-top: -50%
 }
+.social-icons li{display: inline-block;}
+#footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    background: #2e2e2e;
