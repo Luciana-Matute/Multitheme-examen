@@ -1,2 +1,54 @@
 /* Ingresa tu código CSS aquí */
 .navbar-default{background-color: white;}
+
+#main-menu.navbar-default .navbar-nav > li.active > a, #main-menu.navbar-default .navbar-nav > li.open > a, #main-menu.navbar-default .navbar-nav > li:hover > a {
+    background: transparent;
+    padding-top: 37px;
+    border-top: 3px solid #45aed6;
+}
+
+#main-menu.navbar-default .navbar-nav > li > a {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+@media(max-width: 767px){
+	#main-menu.navbar-default .navbar-nav > li > a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+	}
+	#main-menu.navbar-default .navbar-nav > li.active > a, #main-menu.navbar-default .navbar-nav > li.open > a, #main-menu.navbar-default .navbar-nav > li:hover > a {
+    background: transparent;
+    padding-top: 17px;
+    border-top: 3px solid #45aed6;
+	}
+	.logo{height: 31px}
+}
+.item{
+	height: 550px;
+    background-repeat: no-repeat;
+}
+.contenido{
+	margin-top: 45%;
+    color: white;
+}
+.contenido h1 span{color: #45aed6;}
+
+.carousel-control {width: 4%;}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {max-width: 111%;}
+/*portafolio*/
+#portfolio {
+    padding: 100px 0;
+    background: #f5f5f5;
+}
+    visibility: visible;
+    animation-name: fadeInDown;
+}
+.section-header .section-title {
+    font-size: 44px;
+    color: #272727;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 0 20px;
+}
